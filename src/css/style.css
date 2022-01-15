@@ -9,19 +9,23 @@
             }
             
             .logo {
+                display: flex;
+                justify-content: flex-end;
                 color: #fff;
                 font-size: 28px;
                 line-height: 60px;
-                padding-left: 388px;
+                padding-right: 388px;
                 float: left;
             }
             
             .menu {
-                float: left;
-                padding-left: 432px;
+                display: flex;
+                /*float: left;
+                padding-left: 432px;*/
             }
             
             .menu li {
+                justify-content: flex-end;
                 float: left;
                 line-height: 60px;
                 color: #fff;
@@ -32,13 +36,14 @@
             
             .main {
                 width: 100%;
-                height: calc(100% - 60%);
+                height: calc(100% - 60px);
                 background: url(../img/dinar.jpg) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
             }
             
-            .title__container {
+            .title__container { 
                 float: left;
-                margin: 432 0 0 404;
+                margin: 190px 80px;
+                /*margin: 432px 0px 0 404;*/
                 color: #2c384a;
                 text-align: center;
             }
@@ -84,10 +89,15 @@
             }
             
             .title__containerlist img {
-                margin: 80px 580px;
+                margin: 30px auto;
+                width: 150px;
+                height: 158px;
+                border-radius: 50%;
+                display: block;
+                /*margin: 80px 580px;
                 width: 150px;
                 height: 150px;
-                border-radius: 50%;
+                border-radius: 50%;*/
             }
             
             .title__containerlist h4 {
@@ -106,7 +116,16 @@
                 color: #6d7682;
                 font-size: 13px;
                 padding: 0 16px;
-                margin: 60px 580px;
+                margin: 50px 14px 0px 580px;
+                /*height: 40px;
+                text-align: center;
+                border: 2px solid #6d7682;
+                background: none;
+                border-radius: 5px;
+                color: #6d7682;
+                font-size: 13px;
+                padding: 0 16px;
+                margin: 60px 580px;*/
             }
             
             .car {
@@ -116,7 +135,7 @@
             }
             
             .title__containertest h2 {
-                margin-top: 30px;
+                margin-top: 60px;
                 text-align: center;
                 font-size: 23px;
                 text-decoration: 3px underline #d17700;
@@ -143,15 +162,18 @@
             }
             
             .title__containertest ul {
+                display: flex;
+                justify-content: center;
                 text-align: center;
-                margin-top: 20px;
+                margin-top: 50px;
                 color: #d17700;
                 line-height: 30px;
-                padding-left: 20px;
+                padding-left: 100px;
                 float: left;
             }
             
             .my_frend {
+                margin-left: 50px auto;
                 float: left;
                 padding-left: 130px;
             }
@@ -202,11 +224,11 @@
                 border: 2px solid #79819d;
             }
             
-            .title__containerbare li {
-                padding-left: 200px;
+            .title__containerbare picture {
+                width: 100%;
             }
             .title__containerbare img{
-                margin: 30px 200px;
+                margin: 20px 50px 50px 50px;
             }
             
             .title__containerbare h5 {
@@ -231,11 +253,16 @@
             
             .title__containernum ul {
                 text-align: center;
+                margin: 20px 120px;
+                color: #d17700;
+                line-height: 50px;
+                float: left;
+                /*text-align: center;
                 margin-top: 20px;
                 color: #d17700;
                 line-height: 30px;
                 padding-left: 20px;
-                float: left;
+                float: left;*/
             }
             
             .my_skill {
