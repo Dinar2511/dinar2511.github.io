@@ -105,7 +105,6 @@ body{
     text-transform: uppercase;
 }
 .obo__title_{ 
-
 }
 .obomne img{
     display: flex;
@@ -168,10 +167,12 @@ body{
     display: flex;
     align-items: flex-start;
     flex-wrap: nowrap;
-    margin: 35px 0px 0px 400px;
+    justify-content: space-evenly;
+    margin: 35px 0px 0px 100px;
     font-size: 16px;
     color: #d17700;
 }
+
 
 /*.what-list__text {
     display: flex;
@@ -206,12 +207,15 @@ body{
 .keis__pictyre {
     display: flex;
     justify-content: flex-start;
-    margin: 15px 0px 0px 1px;
+    margin: 15px 0px 0px 60px;
 }
-.keis__klie {
-    display: flex;
-    justify-content: center;
-    margin: 15px 0px 0px 200px;
+.keis__clie_{
+    font-size: 16px;
+    margin: 0 0 0 60px;
+}
+.keis__text_{
+    text-transform: uppercase;
+    margin: 0px 0px 0px 80px;
 }
 .raschet__title{
     display: flex;
@@ -233,9 +237,10 @@ body{
 }
 .raschet-sel{
     margin: 30px 0px 50px 280px;
+    height: 56px;
     width: 60%;
-    border: 2px solid #79819d;
-    background: #a1a3a2;
+    border: 2px solid #eeeeee;
+    background: #eeeeee;
 }
 .raschet__text_{
     display: flex;
@@ -244,9 +249,10 @@ body{
 }
 .raschet-sel_{
     margin: 30px 0px 50px 280px;
+    height: 56px;
     width: 60%;
-    border: 2px solid #79819d;
-    background: #a1a3a2;
+    border: 2px solid #eeeeee;
+    background: #eeeeee;
 }
 .raschet__text__{
     display: flex;
@@ -255,9 +261,10 @@ body{
 }
 .raschet-sel__{
     margin: 30px 0px 50px 280px;
+    height: 56px;
     width: 60%;
-    border: 2px solid #79819d;
-    background: #a1a3a2;
+    border: 2px solid #eeeeee;
+    background: #eeeeee;
 }
 .raschet__pict{
     margin: 30px 0px 50px 280px;
@@ -267,14 +274,14 @@ body{
     justify-content: flex-start;
     margin: 5px 0px 0px 280px;
 }
-.raschet-text__title_{
+.raschet__title-title_{
     display: flex;
-    justify-content: flex-start;
-    margin: 5px 0px 0px 280px;
+    justify-content: center;
+    margin: 0px 0px 5px 800px;
 }
 .nem__i{
     width: 100%;
-    height: calc(100% - 60px);
+    height: calc(500px - 60px);
     background: url(../img/klaviatura.jpg) center/cover no-repeat;
 }
 .nem__title{ 
@@ -293,7 +300,8 @@ body{
     display: flex;
     align-items: flex-start;
     flex-wrap: nowrap;
-    margin: 35px 0px 0px 270px;
+    justify-content: space-evenly;
+    margin: 35px 0px 0px 100px;
     font-size: 16px;
     color: #d17700;
 }
@@ -319,7 +327,7 @@ body{
 }
 .moi__i{
     width: 100%;
-    height: calc(100% - 60px);
+    height: calc(800px - 60px);
     background: url(../img/mouse.jpg) center/cover no-repeat;
     margin-top: 80px;
 }
@@ -341,18 +349,48 @@ body{
     display: flex;
     align-items: flex-start;
     flex-wrap: nowrap;
-    margin: 35px 0px 0px 270px;
+    justify-content: space-evenly;
+    margin: 35px 0px 0px 100px;
     font-size: 16px;
     color: #fff;
+}
+.moi-list__icon_{
+    margin: 35px 0px 0px 300px;
+}
+.moi-list__text__{
+margin: 15px 0px 0px 0px;
+}
+.moi-list__icon__{
+    margin: 35px 0px 0px 300px;
+}
+.moi-list__text___{
+    margin: 15px 0px 0px 0px;
+}
+.moi-list__icon___{
+    margin: 35px 0px 0px 300px;
+}
+.moi-list__text____{
+    margin: 15px 0px 0px 0px;
 }
 .mesen__title{
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: 23px;
     font-weight: bold;
     text-transform: uppercase;
-    margin: 20px 0px 0px 20px;
-    color: #fff;   
+    margin: 100px 0px 0px 0px; 
+}
+.mesen_input{
+display: flex;
+justify-content: center;
+}
+.my_glass{
+margin: 40px 0px 0px 0px;
+}
+.my_heat{
+    text-align: center;
+    margin: 40px 0px 0px 0px;
 }
 .footer__text {
     display: inline-flex;
